@@ -79,28 +79,25 @@ Invoke-RestMethod -Uri "http://localhost:5000/predict/salary/testboard/123" -Met
 
 ## API Endpoints
 
-### POST /train
+### POST 
+```commandline
+/train  
+```
 Trains the salary prediction model using provided data.
 
-Request body:
-```json
-{
-    "data_file": "path/to/your/data.csv"
-}
+```bash
+curl -X POST http://localhost:5000/train \
+     -H "Content-Type: application/json" \
+     -d '{"data_file": "job-salary-prediction-training-data/Train_rev1.zip"}'
 ```
 
-### POST /predict/salary/<board_name>/<postingid>
+### POST
+```commandline
+/predict/salary/<board_name>/<postingid>
+```
+
 Predicts salary for a job posting.
 
-Request body:
-```json
-{
-    "experience": 5,
-    "education": "Bachelor's Degree",
-    "location": "San Francisco, CA",
-    "title": "Senior Software Engineer"
-}
-```
 
 ## Testing
 
