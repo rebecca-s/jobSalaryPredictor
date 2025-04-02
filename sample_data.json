@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "board_name": "cohere",
+      "postingid": "e3cb621a-75b8-467c-803c-4325fb0c1301",
+      "role": "Software Engineer",
+      "salary": "$100,000"
+    },
+    {
+      "board_name": "indeed",
+      "postingid": "a4fb621a-75b8-467c-803c-4325fb0c1302",
+      "role": "Data Scientist",
+      "salary": "$110,000"
+    },
+    {
+      "board_name": "linkedin",
+      "postingid": "b5cb621a-75b8-467c-803c-4325fb0c1303",
+      "role": "Product Manager",
+      "salary": "$120,000"
+    }
+  ]
+}
