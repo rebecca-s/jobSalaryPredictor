@@ -34,8 +34,7 @@ pip install -r requirements.txt
 ```
 4. Download the training data:
     - Visit [Kaggle Job Salary Prediction Dataset](https://www.kaggle.com/c/job-salary-prediction/data)
-    - Download the `Train_rev1.zip` file
-    - Extract the `Train_rev1.csv` file to the project root directory
+    - Extract the data to the folder job-salary-prediction-training-data/ in project root directory 
     - Note: You'll need to create a Kaggle account and accept the competition rules to download the data
 
 ## Usage
